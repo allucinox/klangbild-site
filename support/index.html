@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Klangbild Support</title>
+<meta name="description" content="Help for Klangbild, the Roon remote for Apple TV: setup, common questions and contact.">
+<link rel="icon" type="image/png" href="../img/favicon.png">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<header class="panel compact">
+  <div class="wrap">
+    <div class="topbar">
+      <a class="home mini-mark" href="../">klangbild</a>
+      <nav aria-label="Main">
+        <a href="../">Home</a>
+        <a href="./" aria-current="page">Support</a>
+        <a href="../privacy/">Privacy</a>
+      </nav>
+    </div>
+    <div>
+      <span class="label">Support</span>
+      <h1 class="page-title">How can we help?</h1>
+      <p class="page-lede">Answers to the most common questions about Klangbild. If yours isn't here, just write.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <div class="faq">
+        <details open>
+          <summary>How do I set up Klangbild?</summary>
+          <div class="answer">
+            <ol>
+              <li>Install Apple's free TestFlight app on your Apple TV.</li>
+              <li>Open the <a class="link" href="https://testflight.apple.com/join/qXtEk1jB">beta link</a> on your iPhone or Mac and install Klangbild.</li>
+              <li>Open Klangbild. It looks for your Roon Core automatically.</li>
+              <li>In Roon, go to Settings › Extensions and enable “Klangbild”.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>Klangbild doesn't find my Roon Core</summary>
+          <div class="answer">
+            <ul>
+              <li>Make sure the Apple TV and the Roon Core are on the same network (not a guest network).</li>
+              <li>Allow local network access: on the Apple TV, open Settings › Privacy &amp; Security › Local Network and turn on Klangbild.</li>
+              <li>Enter the Core's IP address on Klangbild's connection screen. You find it in Roon under Settings › General. The port is detected automatically (usually 9330).</li>
+            </ul>
+          </div>
+        </details>
+        <details>
+          <summary>The app says “Authorization required”</summary>
+          <div class="answer">
+            <p>Roon asks you to approve every new extension once. Open Roon on another device, go to Settings › Extensions and enable “Klangbild” (publisher: Piero Ballistreri). Klangbild connects as soon as you have done this.</p>
+          </div>
+        </details>
+        <details>
+          <summary>I see several “Klangbild” entries under Extensions</summary>
+          <div class="answer">
+            <p>Roon creates an entry each time Klangbild starts before it has been enabled. Enable one of them and remove the others. Older entries named “com.example.klangbild” come from early beta builds and can be removed.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How do I get the sound on my Apple TV?</summary>
+          <div class="answer">
+            <p>Klangbild is a remote and display. To play audio through the Apple TV, enable it as an AirPlay zone in Roon under Settings › Audio, then pick that zone in Klangbild.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Some covers or folders show no artwork</summary>
+          <div class="answer">
+            <p>Klangbild shows the artwork Roon provides. Playlists and folders get a mosaic of the covers they contain. If Roon has no image for an album, a neutral placeholder appears.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Can I sort playlists by the date I added tracks?</summary>
+          <div class="answer">
+            <p>Roon's interface for extensions doesn't share when a track was added. “Newest first” therefore reverses the playlist order, which puts recently added tracks on top in most playlists. You can also sort by title or artist.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How do I report a problem?</summary>
+          <div class="answer">
+            <p>These details help a lot:</p>
+            <ul>
+              <li>A photo of the screen</li>
+              <li>A photo of Settings › Event Log in Klangbild, taken right after the problem</li>
+              <li>Your Roon version, Apple TV model and tvOS version</li>
+            </ul>
+            <p>Send them via “Send Feedback” in TestFlight, by email, or in the <a class="link" href="https://community.roonlabs.com/t/klangbild-a-modern-roon-remote-now-playing-display-for-apple-tv-public-beta/326924">Roon community thread</a>.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="label">Contact</span>
+        <h2>Still stuck?</h2>
+      </div>
+      <div class="contact-card">
+        <span>Email: <code>support@klangbild.app</code></span>
+        <span class="label">Replies usually within a few days</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="footer-mark">klangbild</div>
+      <div class="contact">
+        <span>Support: <code>support@klangbild.app</code></span>
+        <span>Everything else: <code>hello@klangbild.app</code></span>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="../">Home</a>
+      <a href="../privacy/">Privacy policy</a>
+      <a href="https://community.roonlabs.com/t/klangbild-a-modern-roon-remote-now-playing-display-for-apple-tv-public-beta/326924">Roon community thread</a>
+    </div>
+    <p class="fine">Klangbild is an independent project by Piero Ballistreri and is not affiliated with or endorsed by Roon Labs. Roon is a trademark of its owner. Apple TV and TestFlight are trademarks of Apple Inc.</p>
+  </div>
+</footer>
+
+</body>
+</html>
