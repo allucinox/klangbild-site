@@ -198,3 +198,6 @@ footer .wrap { padding-block: 48px; display: grid; grid-template-columns: minmax
   .footer-links { justify-items: start; }
 }
 @media (prefers-reduced-motion: reduce) { .button { transition: none; } .button:hover { transform: none; } }
+
+.share-setup { color: var(--ink-soft); font-size: 16px; line-height: 1.6; margin: 4px 0 0; }
+.share-setup .link { margin-left: 0; white-space: nowrap; }
