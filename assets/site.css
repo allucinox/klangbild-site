@@ -74,6 +74,7 @@ p { margin: 0; }
 .topbar nav { display: flex; gap: 22px; font-size: 15px; flex-wrap: wrap; }
 .topbar nav a { text-decoration: none; color: var(--ink-soft); }
 .topbar nav a:hover, .topbar nav a[aria-current="page"] { color: var(--ink); }
+.topbar nav .nav-ig { display: inline-flex; align-items: center; }
 .home { text-decoration: none; }
 .led { display: inline-flex; align-items: center; gap: 10px; }
 .led::before {
